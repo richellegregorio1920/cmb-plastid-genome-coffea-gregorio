@@ -5,7 +5,7 @@
 ----
 
 ![Figure 1. Galaxy Results](Galaxy_Fasta_Statistics_Coffea_arabica.png)
-*Figure 1. Overview of the UseGalaxy workflow history showing the FASTA statistics output for the Coffea arabica plastid genome.*
+*Figure 1. Overview of the Galaxy workflow history showing the FASTA statistics output for the Coffea arabica plastid genome.*
 
 ---
 
