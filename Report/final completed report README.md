@@ -140,6 +140,35 @@ The annotated genome contains a robust suite of genes categorized into major fun
 ***Plastid research question example:*** How do maternal lineages vary across wild and cultivated *Coffea arabica* populations?  
 ***Nuclear research question example:*** Which nuclear alleles control complex agronomic traits like disease resistance and cup quality?
 
+----
 
+## VIII. Plastid vs. Mitochondrial Genome Comparison
 
+Both plastid and mitochondrial genomes are semi-autonomous cytoplasmic organelle genomes that exist in multiple cellular copies and encode their own translation machinery (Birky, 2001). However, they exhibit differences in their structure, function, and evolutionary dynamics.
+
+| Feature | Plastid Genome (*Coffea arabica*) | Mitochondrial Genome (*Coffea arabica*) |
+| :--- | :--- | :--- |
+| **Cellular location** | Localized within chloroplasts in the plant cell cytoplasm (Wicke et al., 2011). | Localized within plant mitochondria, frequently incorporating migrated chloroplast sequences (Ni et al., 2023). |
+| **Main biological functions** | Dedicated to photosynthesis, carbon fixation, and plastid gene expression (Park et al., 2019; Wicke et al., 2011). | Dedicated to cellular respiration, oxidative phosphorylation, ATP production, and high-frequency RNA editing (Ni et al., 2023) |
+| **Typical genome organization** | Compact circular molecule featuring the classic quadripartite structure (LSC, SSC, and two IRs) (Park et al., 2019). | Complex multichromosomal architecture (e.g., multiple chromosomes) with multi-conformation fluidity (Ni et al., 2023) |
+| **Relative genome size** | Compact and relatively small, measuring ~155,189 bp (Park et al., 2019). | Significantly larger, spanning over 1 million base pairs across multiple configurations (Ni et al., 2023). |
+| **Gene content** | ~130–131 total genes focused on photosynthesis, tRNAs, and rRNAs (Park et al., 2019). | Core respiration genes (*atp*, *cox*, *nad*), rRNAs, tRNAs, and integrated chloroplast DNA fragments (Ni et al., 2023). |
+| **Copy number** | High polyploidy per plant cell across multiple chloroplast copies (Birky, 2001). | Multiple copies per mitochondrion and cell, varying across tissue types (Birky, 2001; Ni et al., 2023). |
+| **Inheritance** | Typically maternally inherited in angiosperms (Birky, 2001). | Maternally inherited, though shaped by dynamic intracellular DNA transfer (Birky, 2001; Ni et al., 2023). |
+| **Recombination / structural change** | Highly conserved structure with stable gene order (Park et al., 2019; Wicke et al., 2011). | Highly dynamic with frequent repeat-mediated recombination and structural restructuring (Ni et al., 2023; Sakamoto et al., 2020). |
+| **Mutation / substitution pattern** | Moderate, stable substitution rates typical of asterid plastomes (Park et al., 2019). | Low synonymous substitution rates paired with high structural plasticity and extensive C-to-U RNA editing (Ni et al., 2023; Sakamoto et al., 2020). |
+| **Research applications** | Species identification, maternal barcoding, and comparative phylogenetics (Park et al., 2019; Wicke et al., 2011). | Investigating cytoplasmic male sterility, cp-to-mitochondrial gene migration, and recombination (Ni et al., 2023; Smith & Keeling, 2015). |
+
+---
+
+## IX. References
+
+* Birky, C. W., Jr. (2001). The inheritance of genes in mitochondria and chloroplasts: Laws, mechanisms, and models. *Annual Review of Genetics*, 35, 125–148. https://doi.org/10.1146/annurev.genet.35.102401.090231
+* National Center for Biotechnology Information. (n.d.). *Coffea arabica* chloroplast, complete genome (EF044213.1). NCBI Nucleotide. https://www.ncbi.nlm.nih.gov/nuccore/EF044213.1
+* Ni, Y., et al. (2023). Genetic diversity of *Coffea arabica* L. mitochondrial genomes caused by repeat-mediated recombination and RNA editing. *Frontiers in Plant Science*, 14, 1261012. https://doi.org/10.3389/fpls.2023.1261012
+* Park, J., Kim, Y., Xi, H., & Heo, K.-I. (2019). The complete chloroplast genome of coffee tree, *Coffea arabica* L. 'Blue Mountain' (Rubiaceae). *Mitochondrial DNA Part B*, 4(2), 2436–2437. https://doi.org/10.1080/23802359.2019.1624213
+* Samson, N., et al. (2007). The complete nucleotide sequence of the coffee (*Coffea arabica* L.) chloroplast genome: organization and implications for biotechnology and phylogenetic relationships amongst angiosperms. *GenBank Accession EF044213.1*.
+* Sakamoto, W., Takami, T., & Beppu, T. (2020). DNA repair and the stability of the plant mitochondrial genome. *International Journal of Molecular Sciences*, 21(2), 328. https://doi.org/10.3390/ijms21020328
+* Smith, D. R., & Keeling, P. J. (2015). Mitochondrial and plastid genome architecture: Reoccurring themes, but significant differences at the extremes. *Proceedings of the National Academy of Sciences*, 112(33), 10177–10184. https://doi.org/10.1073/pnas.1422049112
+* Wicke, S., Schneeweiss, G. M., dePamphilis, C. W., Müller, K. F., & Quandt, D. (2011). The evolution of the plastid chromosome in land plants: Gene content, gene order, gene function. *Plant Molecular Biology*, 76, 273–297. https://doi.org/10.1007/s11103-011-9762-4
 
