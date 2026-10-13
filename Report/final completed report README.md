@@ -98,3 +98,48 @@ The annotated genome contains a robust suite of genes categorized into major fun
 * **RNAs:** Ribosomal RNAs (*rrn16*, *rrn23*, *rrn4.5*, *rrn5*) and various transfer RNAs (*trn*)
 
 ---
+
+## VII. Questions & Answers
+
+#### VII.1. Give the full scientific name, family, NCBI accession/version, database source, and complete plastid-genome size of your selected organism. 
+* The selected organism is *Coffea arabica* (family Rubiaceae). Its complete chloroplast genome was obtained from the NCBI RefSeq/Nucleotide database under accession number EF044213.1, with a total length of 155,189 bp.
+
+#### VII.2. What evidence shows that the sequence is a complete plastid/chloroplast genome rather than a barcode marker, genome fragment, or nuclear sequence?
+* The NCBI record explicitly labels the entry as a complete chloroplast genome and designates the organelle source as plastid. Furthermore, its full-length circular topology and comprehensive coverage of photosynthetic and housekeeping gene suites confirm it is a whole plastome rather than a partial fragment or nuclear contaminant.
+
+#### VII.3. Describe the overall organization of the plastid genome. Does it contain the common LSC-IR-SSC-IR arrangement? Give the sizes of these regions when available.
+* Yes, the genome follows the standard angiosperm quadripartite structure consisting of a Large Single-Copy (LSC) region, a Small Single-Copy (SSC) region, and two symmetric Inverted Repeat (IR) regions.
+
+#### VII.4. Summarize the annotated gene content: total genes, protein-coding genes, tRNA genes, rRNA genes, and pseudogenes. Explain why genes located in the inverted-repeat regions may appear in two copies. 
+* The annotation features ~130 total genes (~79 protein-coding CDS, ~29 tRNAs, and 4 unique rRNAs). Genes located in the IRa and IRb segments appear in duplicate because the duplication of these large repeat blocks inherently copies any resident genes.
+
+#### VII.5. Choose at least eight protein-coding plastid genes from different functional groups. List each gene and briefly explain its biological function.
+* *psaA* – Core Photosystem I protein driving electron transport.  
+* *psbA* – Photosystem II D1 reaction center protein.  
+* *atpB* – Subunit of ATP synthase for cellular energy generation.  
+* *petA* – Cytochrome f component of the cytochrome b6/f complex.  
+* *rbcL* – RuBisCO large subunit responsible for carbon fixation.  
+* *rpoB* – Subunit of plastid-encoded RNA polymerase.  
+* *rpl2* – Structural protein of the large ribosomal subunit.  
+* *rps16* – Structural protein of the small ribosomal subunit.
+
+#### VII.6. Identify important RNA and RNA-processing features. Include the rRNA genes, examples of tRNA genes, and at least two genes with introns if present in your genome.
+* The genome encodes standard rRNAs (*rrn16*, *rrn23*, *rrn4.5*, *rrn5*) and diverse tRNAs (such as *trnH-GUG*, *trnK-UUU*, and *trnL-UAA*). Introns are reliably found in genes like *trnK* and *rps16*.
+
+#### VII.7. Describe any pseudogenes, gene losses, duplications, rearrangements, or other unusual features reported for your plastid genome.
+* No pseudogenes are explicitly annotated in the reference file. The *Coffea arabica* plastome maintains a highly conserved, stable architecture typical of asterid lineages.
+
+#### VII.8. What is the GC content of your plastid genome? Based on your Galaxy results and annotation, describe two other notable sequence or structural observations.
+* The GC content is 37.43%. Key structural observations include its single continuous contig representation and the clear preservation of the quadripartite LSC/SSC/IR layout.
+
+#### VII.9. Compare plastid and mitochondrial genomes.
+* Both are semi-autonomous cytoplasmic organelle genomes containing multiple cellular copies and coding for core translation machinery (Birky, 2001). However, while plastid genomes are compact, circularly mapped, and dedicated primarily to photosynthesis (Park et al., 2019; Wicke et al., 2011), plant mitochondrial genomes are vastly larger, structurally multipartite, highly prone to repeat-mediated recombination, and centered around cellular respiration (Ni et al., 2023; Smith & Keeling, 2015).
+
+#### VII.10. Explain the practical value of plastid genomes in research. Include advantages, limitations, and examples of research questions.
+* Plastid genomes are exceptionally useful for phylogenetics, molecular barcoding, and maternal lineage tracing due to their conserved structure and haploid, maternal inheritance (Birky, 2001; Wicke et al., 2011). However, they only represent uniparental chloroplast evolution and cannot capture nuclear genomic complexity.  
+***Plastid research question example:*** How do maternal lineages vary across wild and cultivated *Coffea arabica* populations?  
+***Nuclear research question example:*** Which nuclear alleles control complex agronomic traits like disease resistance and cup quality?
+
+
+
+
