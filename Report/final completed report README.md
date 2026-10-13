@@ -59,8 +59,8 @@ After uploading the FASTA file to the UseGalaxy platform, the **FASTA Statistics
 The Galaxy output confirms that the *Coffea arabica* chloroplast genome is an intact, continuous sequence spanning exactly 155,189 base pairs with a GC content of 37.43% and zero internal gaps. This verifies that the dataset is pristine and fully ready for detailed annotation analysis.
 
 ### Galaxy Workflow Screenshot
-![Figure 1. Galaxy Results](Figures/Galaxy_Fasta_Statistics_Coffea_arabica.png)  
-*Figure 1. Overview of the UseGalaxy workflow history (`Plastid_Coffea_Gregorio`) displaying the successful FASTA statistics output for the Coffea arabica nucleotide dataset (Accession: EF044213.1).*
+![Figure 1. UseGalaxy FASTA Statistics Output](https://raw.githubusercontent.com/richellegregorio1920/cmb-plastid-genome-coffea-gregorio/main/Figures/Galaxy_Fasta_Statistics_Coffea_arabica.png)  
+*Figure 1. Overview of the UseGalaxy workflow history (`Plastid_Coffea_Gregorio`) showing the FASTA statistics results for the Coffea arabica nucleotide dataset (Accession: EF044213.1).*
 
 ### Galaxy History Details
 * **History Name:** `Plastid_Coffea_Gregorio`
@@ -69,3 +69,32 @@ The Galaxy output confirms that the *Coffea arabica* chloroplast genome is an in
 
 ---
 
+## V. Required Plastid Genome Characterization
+
+Synthesizing data from the GenBank annotation file and our Galaxy statistics, the *Coffea arabica* plastome exhibits the classic circular, quadripartite architecture typical of land plant chloroplasts.
+
+| Characteristic | Result |
+| :--- | :--- |
+| **Chosen genus & species** | *Coffea arabica* (Rubiaceae) |
+| **NCBI accession** | EF044213.1 |
+| **Genome size & GC content** | 155,189 bp; 37.43% GC |
+| **Topology & Regions** | Circular; structured into Large Single-Copy (LSC), Small Single-Copy (SSC), and two Inverted Repeats (IR) |
+| **Annotated gene content** | ~130 total gene entries, including ~79 protein-coding CDS, ~29 tRNAs, and 4 unique rRNAs |
+| **Introns & Duplications** | Group II introns present in select genes (*trnK*, *rps16*); standard gene duplications located within the IR boundaries |
+| **Structural status** | Stable, compact asterid chloroplast architecture |
+
+---
+
+## VI. Gene Groups Identified
+
+The annotated genome contains a robust suite of genes categorized into major functional machinery:
+
+* **Photosystem I (*psa*):** *psaA*, *psbB*-related core complexes, *psaC*, *psaI*, *psaJ*
+* **Photosystem II (*psb*):** *psbA* (D1 protein), *psbB*, *psbC*, *psbD*, and associated reaction center subunits (*psbE* through *psbZ*)
+* **ATP Synthase (*atp*):** *atpA*, *atpB*, *atpE*, *atpF*, *atpH*, *atpI*
+* **Cytochrome b6/f (*pet*):** *petA*, *petB*, *petD*, *petG*, *petL*, *petN*
+* **Carbon Fixation:** *rbcL* (RuBisCO large subunit)
+* **Transcription & Translation:** Plastid RNA polymerase subunits (*rpoA*, *rpoB*, *rpoC1*, *rpoC2*), large ribosomal proteins (*rpl* series), and small ribosomal proteins (*rps* series)
+* **RNAs:** Ribosomal RNAs (*rrn16*, *rrn23*, *rrn4.5*, *rrn5*) and various transfer RNAs (*trn*)
+
+---
