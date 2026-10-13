@@ -43,3 +43,29 @@ To complete the bioinformatics workflow, the core sequence files required for se
 
 ---
 
+## IV. Galaxy Workflow and Sequence Statistics
+
+After uploading the FASTA file to the UseGalaxy platform, the **FASTA Statistics** tool was run to confirm the basic compositional metrics of the *Coffea arabica* plastome.
+
+### Galaxy FASTA Statistics
+| Statistic | Result |
+| :--- | :--- |
+| **Genome length** | 155,189 bp |
+| **Number of sequence records** | 1 (Single continuous contig) |
+| **GC content** | 37.43% |
+| **Number of gaps** | 0 |
+| **Complete plastome represented by one sequence record?** | Yes |
+
+The Galaxy output confirms that the *Coffea arabica* chloroplast genome is an intact, continuous sequence spanning exactly 155,189 base pairs with a GC content of 37.43% and zero internal gaps. This verifies that the dataset is pristine and fully ready for detailed annotation analysis.
+
+### Galaxy Workflow Screenshot
+![Figure 1. Galaxy Results](Figures/Galaxy_Fasta_Statistics_Coffea_arabica.png)  
+*Figure 1. Overview of the UseGalaxy workflow history (`Plastid_Coffea_Gregorio`) displaying the successful FASTA statistics output for the Coffea arabica nucleotide dataset (Accession: EF044213.1).*
+
+### Galaxy History Details
+* **History Name:** `Plastid_Coffea_Gregorio`
+* **Tool Used:** FASTA Statistics
+* **Galaxy History Link:** [https://usegalaxy.org/u/richelle_gregorio/h/plastid-coffea-gregorio](https://usegalaxy.org/u/richelle_gregorio/h/plastid-coffea-gregorio)
+
+---
+
